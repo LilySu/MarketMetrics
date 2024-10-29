@@ -1,7 +1,7 @@
 # Reddit Business Analyzer 📊
 
 A sophisticated tool that combines Reddit data mining, AI-powered business analysis, and Monte Carlo simulations to generate and evaluate business opportunities.
-[Project Interface](/marketmetrics.png)
+![Project Interface](/marketmetrics.png)
 
 ## Overview 🌟
 
@@ -92,7 +92,7 @@ analyzer.num_trials_slider.value = 1000    # Monte Carlo iterations
 analyzer.display()
 """
 
-[Business Choices Running Default Filters](/marketmetricschoices.png)
+![Business Choices Running Default Filters](/marketmetricschoices.png)
 ### Interactive Analysis Dashboard 📊
 The project includes an interactive dashboard built with Plotly and ipywidgets that allows users to:
 
