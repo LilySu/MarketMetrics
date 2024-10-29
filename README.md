@@ -9,6 +9,9 @@ This project was created during the AGI House Global AI x Mathematics Hackathon 
 
 ## Features 🚀
 
+### What this is
+This was a hackathon project built in a few hours. Everything are jupyter notebook functions and classes you can repurpose into proper modules. The interface is an ipywidgets Streamlit element with self-refreshing sliders.
+
 ### Data Collection
 - Automated scraping of top subreddits filtered by subscriber count 
 - Extraction of most upvoted posts and comments
@@ -33,7 +36,7 @@ Interactive simulation of key business metrics including:
 - Payback periods
 
 ### Usage 📝
-"""
+```
 # Import the main classes
 from reddit_scraper import SubredditScraper
 from business_analyzer import BusinessAnalyzer
@@ -90,7 +93,7 @@ analyzer.num_trials_slider.value = 1000    # Monte Carlo iterations
 
 # Display interactive analysis dashboard
 analyzer.display()
-"""
+```
 
 ![Business Choices Running Default Filters](/marketmetricschoices.png)
 ### Interactive Analysis Dashboard 📊
